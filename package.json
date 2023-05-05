@@ -1,5 +1,5 @@
 {
-  "name": "responsive-bankify-website",
+  "name": "responsive-RiseBank-website",
   "version": "1.0.0",
   "description": "A digital banking landing page",
   "main": "index.js",
@@ -12,7 +12,7 @@
     "compress:css": "node-sass ./assets/css/styles.prefix.css ./assets/css/styles.css --output-style compressed",
     "build:css": "npm-run-all compile:sass prefix:css compress:css"
   },
-  "author": "Jan Kenneth Sajo",
+  "author": "Samarth Chavan",
   "license": "ISC",
   "browserslist": "last 10 versions",
   "devDependencies": {
@@ -24,12 +24,5 @@
     "postcss": "^8.4.4",
     "postcss-cli": "^9.0.2"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/nethsajo/responsive-bankify-website.git"
-  },
-  "bugs": {
-    "url": "https://github.com/nethsajo/responsive-bankify-website/issues"
-  },
-  "homepage": "https://github.com/nethsajo/responsive-bankify-website#readme"
+ 
 }
